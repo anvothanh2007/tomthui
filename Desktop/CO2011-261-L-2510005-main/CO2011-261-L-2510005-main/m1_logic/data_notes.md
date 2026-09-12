@@ -5,12 +5,12 @@
 Dựa trên file Anonymized Dataset, cấu trúc các tham số được ánh xạ như sau:
 
 *   **Sets (Tập hợp):**
-    *   **Tập Giám thị ($I$):** Định danh từ cột `MS của CÁN BỘ COI THI` (VD: CB001, CB002, CB025...).
-    *   **Tập Ca thi ($J$):** Định danh bằng cách kết hợp cột `MS Ca thi` và `Cơ sở` (VD: Ca 20260518_5 tại Cơ sở 1).
-    *   **Tập Cơ sở ($C$):** Lấy từ cột `Cơ sở` (Cơ sở 1, Cơ sở 2).
+    *   **Tập Giám thị (I):** Định danh từ cột `MS của CÁN BỘ COI THI` (VD: CB001, CB002, CB025...).
+    *   **Tập Ca thi (J):** Định danh bằng cách kết hợp cột `MS Ca thi` và `Cơ sở` (VD: Ca 20260518_5 tại Cơ sở 1).
+    *   **Tập Cơ sở (C):** Lấy từ cột `Cơ sở` (Cơ sở 1, Cơ sở 2).
 
 *   **Baseline (Lịch cơ sở):**
-    *   Mỗi dòng trong bảng tính biểu diễn một phân công thực tế đã diễn ra $\text{Assign}(i, j) = 1$. 
+    *   Mỗi dòng trong bảng tính biểu diễn một phân công thực tế đã diễn ra Assign(i, j) = 1.
     *   Ví dụ: Dòng đầu tiên cho biết cán bộ CB001 được phân công vào ca 20260518_5, nhiệm vụ LTK_CBCT tại Cơ sở 1.
 
 *   **Capacity (Sức chứa):**
